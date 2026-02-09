@@ -81,7 +81,7 @@ body {
 
 .article .data div {
    display: flex;
-   gap: 30px;
+   gap: 60px;
    align-items: center;
 }
 
