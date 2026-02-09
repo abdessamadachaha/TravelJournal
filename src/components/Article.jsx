@@ -7,7 +7,7 @@ function Article({id, img, title, country, googleMapsLink, dates, text}) {
          <div className="data">
             <div>
                <p><span><img src={point} alt="icon" /></span> {country}</p>
-               <a href={googleMapsLink}>View on Google Maps</a>
+               <a href={googleMapsLink} target="_blank">View on Google Maps</a>
             </div>
             <p className="title">{title}</p>
             <p className="date">{dates}</p>
