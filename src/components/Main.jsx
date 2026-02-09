@@ -3,7 +3,7 @@ import Article from "./Article";
 
 function Main() {
    return (
-      <main>
+      <main className="main">
          {information.map(article => (
             <Article  {...article}/>
          ))}
